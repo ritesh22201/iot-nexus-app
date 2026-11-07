@@ -1,0 +1,43 @@
+{
+  "$schema": "https://turborepo.com/schema.json",
+  "ui": "stream",
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "inputs": ["$TURBO_DEFAULT$", ".env*"],
+      "outputs": ["dist/**", ".next/**", "!.next/cache/**"],
+      "env": [
+        "NEXT_PUBLIC_FIREBASE_*",
+        "NEXT_PUBLIC_USE_FIREBASE_EMULATORS",
+        "NEXT_PUBLIC_FIRESTORE_EMULATOR_HOST",
+        "NEXT_PUBLIC_FIREBASE_AUTH_EMULATOR_URL"
+      ]
+    },
+    "dev": {
+      "dependsOn": ["^build"],
+      "cache": false,
+      "persistent": true,
+      "passThroughEnv": [
+        "NODE_ENV",
+        "PORT",
+        "HOST",
+        "LOG_LEVEL",
+        "CORS_ORIGINS",
+        "FIREBASE_*",
+        "FIRESTORE_EMULATOR_HOST",
+        "GOOGLE_APPLICATION_CREDENTIALS",
+        "MQTT_*",
+        "NEXT_PUBLIC_*"
+      ]
+    },
+    "lint": {},
+    "typecheck": {
+      "dependsOn": ["^build"],
+      "outputs": []
+    },
+    "test": {
+      "dependsOn": ["^build"],
+      "outputs": []
+    }
+  }
+}

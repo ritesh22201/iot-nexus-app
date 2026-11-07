@@ -1,0 +1,28 @@
+1:"$Sreact.fragment"
+2:"static/chunks/26-92b016253a53cb59.js"
+3:"static/chunks/app/page-c9d692586a13af0f.js"
+4:I[8026,["26","$2","974","$3"],""]
+5:"static/chunks/946-4c37c0f2a1d07926.js"
+6:"static/chunks/app/layout-27f614328988620d.js"
+7:I[9971,["26","$2","946","$5","177","$6"],"AppNavigation"]
+8:I[659,[],""]
+9:I[4607,[],""]
+f:"ViewportBoundary"
+10:I[7514,[],"$f"]
+11:"MetadataBoundary"
+12:I[7514,[],"$11"]
+13:"$Sreact.suspense"
+:HL["/_next/static/css/2d1eebe4021206a6.css","style"]
+b:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","section",null,{"className":"max-w-3xl py-12","children":[["$","p",null,{"className":"mb-5 text-sm font-semibold uppercase tracking-widest text-primary","children":"Real-time device management"}],["$","h1",null,{"className":"text-4xl font-semibold tracking-tight sm:text-6xl","children":"A foundation for your connected world."}],["$","p",null,{"className":"mt-6 max-w-xl text-lg leading-8 text-muted-foreground","children":"IoT Nexus brings device management, telemetry, and operational monitoring into one workspace. The project foundation is ready for incremental development."}],["$","div",null,{"className":"mt-8","children":["$","$L4",null,{"href":"/dashboard","children":"Open dashboard shell","data-slot":"button","className":"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2","ref":null}]}],["$","p",null,{"className":"mt-6 text-sm text-muted-foreground","children":"Authentication and device connections are planned for upcoming phases."}]]}],null,"$Ld"]}],"p":"$@e","v":null,"s":"$b"}}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/2d1eebe4021206a6.css","precedence":"next"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"children":[["$","a",null,{"href":"#main","className":"sr-only rounded bg-primary p-3 text-primary-foreground focus:not-sr-only focus:absolute focus:z-50","children":"Skip to content"}],["$","header",null,{"className":"border-b border-border bg-white","children":["$","div",null,{"className":"mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-5 px-6 py-5","children":[["$","$L4",null,{"href":"/","className":"flex items-center gap-3 font-semibold tracking-tight","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-radio-tower size-6 text-primary","aria-hidden":"true","children":[["$","path","s0qx1y",{"d":"M4.9 16.1C1 12.2 1 5.8 4.9 1.9"}],["$","path","1idnkw",{"d":"M7.8 4.7a6.14 6.14 0 0 0-.8 7.5"}],["$","circle","1092wv",{"cx":"12","cy":"9","r":"2"}],["$","path","ojru2q",{"d":"M16.2 4.8c2 2 2.26 5.11.8 7.47"}],["$","path","rhi7fg",{"d":"M19.1 1.9a9.96 9.96 0 0 1 0 14.1"}],["$","path","mfy3pd",{"d":"M9.5 18h5"}],["$","path","25yftu",{"d":"m8 22 4-11 4 11"}],"$undefined"]}],"IoT Nexus"]}],["$","$L7",null,{}]]}]}],["$","main",null,{"id":"main","className":"mx-auto min-h-[75vh] max-w-6xl px-6 py-12","children":["$","$L8",null,{"parallelRouterKey":"children","template":["$","$L9",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}],["$","footer",null,{"className":"mx-auto max-w-6xl border-t border-border px-6 py-6 text-sm text-muted-foreground","children":"IoT Nexus · Project foundation · Phase 0"}]]}]}]]}],"p":"$@a","v":null,"s":"$b"},"c":"$Qc"},"h":{"r":["$","$1","h",{"children":[null,["$","$L10",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L12",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$13",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"IoT Nexus"}],["$","meta","1",{"name":"description","content":"Real-time IoT device management and monitoring. Project foundation."}]]}]}],null]}],null]}],"p":"$@14","v":null,"s":"$b"}},"a":"$@15","u":"$@16","b":"D_ua-dSwWVY2YlHLjguhl"}
+17:I[7514,[],"OutletBoundary"]
+d:["$","$L17",null,{"children":["$","$13",null,{"name":"Next.MetadataOutlet","children":"$@18"}]}]
+b:300
+18:null
+16:true
+b:C
+15:0
+a:"$undefined"
+14:"$undefined"
+e:"$undefined"

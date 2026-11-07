@@ -1,0 +1,41 @@
+{
+  "name": "iot-nexus",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.9.1",
+  "engines": {
+    "node": ">=24 <25",
+    "pnpm": ">=12 <13"
+  },
+  "scripts": {
+    "dev": "turbo run dev --filter=@iot-nexus/web --filter=@iot-nexus/api",
+    "dev:simulator": "pnpm --filter @iot-nexus/shared build && pnpm --filter @iot-nexus/simulator dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint && eslint eslint.config.mjs scripts packages/config infra/firebase",
+    "typecheck": "turbo run typecheck && tsc --noEmit",
+    "test": "turbo run test",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "pnpm lint && pnpm typecheck && pnpm test && pnpm build",
+    "env:setup": "node scripts/setup-env.mjs",
+    "infra:up": "docker compose up -d mqtt",
+    "infra:down": "docker compose --profile emulators down",
+    "emulators": "firebase emulators:start --project demo-iot-nexus --config firebase.json",
+    "emulators:docker": "docker compose --profile emulators up -d --build",
+    "test:rules": "vitest run --config infra/firebase/vitest.config.ts",
+    "test:rules:emulated": "firebase emulators:exec --project demo-iot-nexus --config firebase.json --only firestore \"pnpm test:rules\""
+  },
+  "devDependencies": {
+    "@iot-nexus/config": "workspace:*",
+    "@firebase/rules-unit-testing": "^6.0.0",
+    "@types/node": "^24.0.0",
+    "eslint": "^10.14.0",
+    "firebase": "^13.2.0",
+    "firebase-tools": "15.35.0",
+    "prettier": "^3.6.2",
+    "turbo": "^2.11.10",
+    "typescript": "~5.9.3",
+    "vitest": "^5.1.0"
+  }
+}

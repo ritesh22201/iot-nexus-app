@@ -1,0 +1,7 @@
+# Production design example only; NOT loaded by the development broker.
+# Provision unique device usernames and a password file / external auth plugin.
+# Explicit ACLs map an authenticated principal to exactly its assigned path.
+user device-virtual-001
+topic write tenants/tenant-demo/devices/virtual-001/telemetry
+user ingestion-api
+topic read tenants/+/devices/+/telemetry

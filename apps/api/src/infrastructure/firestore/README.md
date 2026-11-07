@@ -1,0 +1,1 @@
+Future Firebase Admin adapter. Use Application Default Credentials in production and both emulator host variables with a demo project locally. Instantiate only in the composition root. Implement repository ports declared by use cases; never import this adapter into domain code.

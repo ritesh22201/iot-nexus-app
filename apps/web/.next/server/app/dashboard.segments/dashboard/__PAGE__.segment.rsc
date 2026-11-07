@@ -1,0 +1,31 @@
+1:"$Sreact.fragment"
+2:"static/chunks/26-92b016253a53cb59.js"
+3:"static/chunks/app/page-c9d692586a13af0f.js"
+4:I[8026,["26","$2","974","$3"],""]
+5:"static/chunks/946-4c37c0f2a1d07926.js"
+6:"static/chunks/app/layout-27f614328988620d.js"
+7:I[9971,["26","$2","946","$5","177","$6"],"AppNavigation"]
+8:I[659,[],""]
+9:I[4607,[],""]
+10:I[7514,[],"OutletBoundary"]
+11:"$Sreact.suspense"
+14:"ViewportBoundary"
+15:I[7514,[],"$14"]
+16:"MetadataBoundary"
+17:I[7514,[],"$16"]
+:HL["/_next/static/css/2d1eebe4021206a6.css","style"]
+b:X
+e:X
+e:C
+f:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","section",null,{"children":[["$","p",null,{"className":"mb-3 text-sm font-medium text-primary","children":["Planned · ","Phase 3"]}],["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"Dashboard"}],["$","p",null,{"className":"mt-4 max-w-2xl leading-7 text-muted-foreground","children":"Device status, live telemetry, and operational metrics will appear here once authorized data subscriptions are implemented."}],["$","div",null,{"className":"mt-8 rounded-xl border border-dashed border-border bg-white p-8","children":[["$","h2",null,{"className":"font-medium","children":"No connected data yet"}],["$","p",null,{"className":"mt-2 text-sm text-muted-foreground","children":"This page is a placeholder. Its features will be added in a later development phase."}]]}]]}],null,["$","$L10",null,{"children":["$","$11",null,{"name":"Next.MetadataOutlet","children":"$@12"}]}]]}],"p":"$@13","v":null,"s":"$b"}}]]
+c:[["children",{"s":"dashboard","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L8",null,{"parallelRouterKey":"children","template":["$","$L9",null,{}]}]]}],"p":"$@d","v":"$e","s":"$b"},"c":"$Qf"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/2d1eebe4021206a6.css","precedence":"next"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"children":[["$","a",null,{"href":"#main","className":"sr-only rounded bg-primary p-3 text-primary-foreground focus:not-sr-only focus:absolute focus:z-50","children":"Skip to content"}],["$","header",null,{"className":"border-b border-border bg-white","children":["$","div",null,{"className":"mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-5 px-6 py-5","children":[["$","$L4",null,{"href":"/","className":"flex items-center gap-3 font-semibold tracking-tight","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-radio-tower size-6 text-primary","aria-hidden":"true","children":[["$","path","s0qx1y",{"d":"M4.9 16.1C1 12.2 1 5.8 4.9 1.9"}],["$","path","1idnkw",{"d":"M7.8 4.7a6.14 6.14 0 0 0-.8 7.5"}],["$","circle","1092wv",{"cx":"12","cy":"9","r":"2"}],["$","path","ojru2q",{"d":"M16.2 4.8c2 2 2.26 5.11.8 7.47"}],["$","path","rhi7fg",{"d":"M19.1 1.9a9.96 9.96 0 0 1 0 14.1"}],["$","path","mfy3pd",{"d":"M9.5 18h5"}],["$","path","25yftu",{"d":"m8 22 4-11 4 11"}],"$undefined"]}],"IoT Nexus"]}],["$","$L7",null,{}]]}]}],["$","main",null,{"id":"main","className":"mx-auto min-h-[75vh] max-w-6xl px-6 py-12","children":["$","$L8",null,{"parallelRouterKey":"children","template":["$","$L9",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}],["$","footer",null,{"className":"mx-auto max-w-6xl border-t border-border px-6 py-6 text-sm text-muted-foreground","children":"IoT Nexus · Project foundation · Phase 0"}]]}]}]]}],"p":"$@a","v":null,"s":"$b"},"c":"$Qc"},"h":{"r":["$","$1","h",{"children":[null,["$","$L15",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L17",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$11",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Dashboard | IoT Nexus"}],["$","meta","1",{"name":"description","content":"Real-time IoT device management and monitoring. Project foundation."}]]}]}],null]}],null]}],"p":"$@18","v":null,"s":"$b"}},"a":"$@19","u":"$@1a","b":"D_ua-dSwWVY2YlHLjguhl"}
+12:null
+b:300
+1a:true
+b:C
+19:0
+d:"$undefined"
+a:"$undefined"
+18:"$undefined"
+13:"$undefined"

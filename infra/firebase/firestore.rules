@@ -1,0 +1,45 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function memberPath(tenantId) {
+      return /databases/$(database)/documents/tenants/$(tenantId)/members/$(request.auth.uid);
+    }
+    function isMember(tenantId) {
+      return request.auth != null
+        && exists(memberPath(tenantId))
+        && get(memberPath(tenantId)).data.role in ['owner', 'admin', 'viewer'];
+    }
+    function isAdmin(tenantId) {
+      return isMember(tenantId) && get(memberPath(tenantId)).data.role in ['owner', 'admin'];
+    }
+    match /tenants/{tenantId} {
+      allow get: if isMember(tenantId);
+      allow list, write: if false;
+      match /members/{uid} {
+        allow get: if request.auth != null && request.auth.uid == uid && isMember(tenantId);
+        allow list, write: if false;
+      }
+      match /devices/{deviceId} {
+        allow read: if isMember(tenantId);
+        allow write: if false;
+        match /telemetry/{eventId} {
+          allow read: if isMember(tenantId);
+          allow write: if false;
+        }
+        match /aggregates/{bucketId} {
+          allow read: if isMember(tenantId);
+          allow write: if false;
+        }
+      }
+      match /alerts/{alertId} {
+        allow read: if isMember(tenantId);
+        allow write: if false;
+      }
+      match /auditLogs/{eventId} {
+        allow read: if isAdmin(tenantId);
+        allow write: if false;
+      }
+    }
+    match /{document=**} { allow read, write: if false; }
+  }
+}

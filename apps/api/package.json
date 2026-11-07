@@ -1,0 +1,32 @@
+{
+  "name": "@iot-nexus/api",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch --env-file-if-exists=.env src/server.ts",
+    "build": "tsup src/server.ts --format esm --sourcemap --clean --external @iot-nexus/shared",
+    "start": "node --env-file-if-exists=.env dist/server.js",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@iot-nexus/shared": "workspace:*",
+    "@fastify/cors": "^11.2.0",
+    "@fastify/rate-limit": "^10.3.0",
+    "fastify": "^5.12.8",
+    "firebase-admin": "^14.5.0",
+    "mqtt": "^5.14.1",
+    "pino": "^10.1.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@iot-nexus/config": "workspace:*",
+    "@types/node": "^24.0.0",
+    "tsup": "^8.5.0",
+    "tsx": "^4.21.0",
+    "typescript": "~5.9.3",
+    "vitest": "^5.1.0"
+  }
+}

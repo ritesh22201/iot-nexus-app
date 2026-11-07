@@ -1,0 +1,1 @@
+Future MQTT.js adapter. Validate topic segments and payload independently; bind identity to broker ACLs. A matching payload alone does not authenticate a device. Local anonymous broker access is isolated and never production-ready.

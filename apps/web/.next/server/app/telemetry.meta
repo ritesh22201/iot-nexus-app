@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/telemetry/layout,_N_T_/telemetry/page,_N_T_/telemetry"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/telemetry/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 64,
+    "slots": {
+      "children": {
+        "hints": 96,
+        "slots": {
+          "children": {
+            "hints": 160,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/51530e9dbfd38a068333c5c151c045ed975c542a4b40d62cb6ce5ba34130a9aa/$/telemetry",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/telemetry/page"
+    },
+    "isFallback": false
+  }
+}

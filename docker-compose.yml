@@ -1,0 +1,31 @@
+services:
+  mqtt:
+    image: eclipse-mosquitto:2.0.22
+    ports:
+      - '127.0.0.1:1883:1883'
+    volumes:
+      - ./infra/mosquitto/mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
+    networks: [local]
+    healthcheck:
+      test:
+        ['CMD', 'mosquitto_pub', '-h', '127.0.0.1', '-t', '_health', '-m', 'ok']
+      interval: 15s
+      timeout: 5s
+      retries: 3
+    restart: unless-stopped
+  firebase:
+    profiles: [emulators]
+    build:
+      context: .
+      dockerfile: infra/docker/firebase.Dockerfile
+    ports:
+      - '127.0.0.1:4000:4000'
+      - '127.0.0.1:8080:8080'
+      - '127.0.0.1:9099:9099'
+      - '127.0.0.1:4400:4400'
+      - '127.0.0.1:4500:4500'
+    networks: [local]
+    init: true
+networks:
+  local:
+    driver: bridge

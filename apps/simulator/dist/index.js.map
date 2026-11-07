@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.ts"],"sourcesContent":["import pino from 'pino';\nconst logger = pino({ name: 'iot-nexus-simulator' });\nlogger.info(\n  'Simulator scaffold ready. Telemetry generation and MQTT publishing are planned for Phase 2.',\n);\n"],"mappings":";AAAA,OAAO,UAAU;AACjB,IAAM,SAAS,KAAK,EAAE,MAAM,sBAAsB,CAAC;AACnD,OAAO;AAAA,EACL;AACF;","names":[]}

@@ -1,0 +1,10 @@
+$ tsup src/index.ts --format esm --sourcemap --clean --external @iot-nexus/shared
+CLI Building entry: src/index.ts
+CLI Using tsconfig: tsconfig.json
+CLI tsup v8.5.1
+CLI Target: es2022
+CLI Cleaning output folder
+ESM Build start
+ESM dist/index.js     238.00 B
+ESM dist/index.js.map 372.00 B
+ESM ⚡️ Build success in 47ms
